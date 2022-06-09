@@ -1,0 +1,40 @@
+:root
+    --bg: #000
+    --bgg: #292929
+
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
+body
+    //background-color: #292929
+    background-color: var(--bgg)
+    color: #fff
+
+
+main
+    display: flex
+    justify-content: center
+    align-items: center
+    min-height: 100vh
+    //background-color: var(--bg)
+    ul
+        position: relative
+        display: flex
+        gap: 50px  // para que funcione solo necesito el display: flex
+        li
+            background: #313131
+            list-style: none
+            position: relative
+            width: 80px
+            height: 80px
+            display: flex
+            justify-content: center
+            align-items: center //con estos centramos los íconos
+            cursor: pointer
+            transition: .5s
+            a
+                position: relative
+                text-decoration: none
+                color: var(--clr)

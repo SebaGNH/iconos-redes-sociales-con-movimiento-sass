@@ -1,0 +1,46 @@
+:root {
+  --bg: #000;
+  --bgg: #292929;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bgg);
+  color: #fff;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+main ul {
+  position: relative;
+  display: flex;
+  gap: 50px;
+}
+main ul li {
+  background: #313131;
+  list-style: none;
+  position: relative;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.5s;
+}
+main ul li a {
+  position: relative;
+  text-decoration: none;
+  color: var(--clr);
+}
+
+/*# sourceMappingURL=style.css.map */
