@@ -101,4 +101,10 @@ main ul li:nth-child(5)::after {
   background: var(--bg);
 }
 
+@media (max-width: 767px) {
+  ul {
+    flex-direction: column;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
