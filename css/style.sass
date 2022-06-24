@@ -12,9 +12,7 @@
     box-sizing: border-box
 
 body
-    //background-color: #292929
     background-color: var(--bg)
-
 
 main
     display: flex
@@ -55,6 +53,7 @@ main
                 position: absolute
                 inset: 0
                 transform: rotate(45deg)
+                background: var(--bg)
             a
                 position: relative
                 text-decoration: none
@@ -64,31 +63,20 @@ main
                 transition: .5s
             &:nth-child(1)
                 &::before 
-                    box-shadow: 0 0 0 10px var(--fb), 0 0 0 20px var(--bg),0 0 0 22px var(--fb)
-                &::after
-                    background: var(--bg)
+                    box-shadow: 0 0 0 10px var(--fb), 0 0 0 20px var(--bg), 0 0 0 22px var(--fb)                
             &:nth-child(2)
                 &::before 
-                    box-shadow: 0 0 0 10px var(--yt), 0 0 0 20px var(--bg),0 0 0 22px var(--yt)
-                &::after
-                    background: var(--bg)
+                    box-shadow: 0 0 0 10px var(--yt), 0 0 0 20px var(--bg), 0 0 0 22px var(--yt)                
             &:nth-child(3)
                 &::before 
-                    box-shadow: 0 0 0 10px var(--tw), 0 0 0 20px var(--bg),0 0 0 22px var(--tw)
-                &::after
-                    background: var(--bg)
+                    box-shadow: 0 0 0 10px var(--tw), 0 0 0 20px var(--bg), 0 0 0 22px var(--tw)                
             &:nth-child(4)
                 &::before 
-                    box-shadow: 0 0 0 10px var(--ig), 0 0 0 20px var(--bg),0 0 0 22px var(--ig)
-                &::after
-                    background: var(--bg)
+                    box-shadow: 0 0 0 10px var(--ig), 0 0 0 20px var(--bg), 0 0 0 22px var(--ig)                
             &:nth-child(5)
                 &::before 
-                    box-shadow: 0 0 0 10px var(--ws), 0 0 0 20px var(--bg),0 0 0 22px var(--ws)
-                &::after
-                    background: var(--bg)
+                    box-shadow: 0 0 0 10px var(--ws), 0 0 0 20px var(--bg), 0 0 0 22px var(--ws)                
 
-@media (max-width: 767px)
-    
+@media (max-width: 767px)    
     ul
         flex-direction: column

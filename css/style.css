@@ -61,6 +61,7 @@ main ul li::after {
   position: absolute;
   inset: 0;
   transform: rotate(45deg);
+  background: var(--bg);
 }
 main ul li a {
   position: relative;
@@ -73,32 +74,17 @@ main ul li a {
 main ul li:nth-child(1)::before {
   box-shadow: 0 0 0 10px var(--fb), 0 0 0 20px var(--bg), 0 0 0 22px var(--fb);
 }
-main ul li:nth-child(1)::after {
-  background: var(--bg);
-}
 main ul li:nth-child(2)::before {
   box-shadow: 0 0 0 10px var(--yt), 0 0 0 20px var(--bg), 0 0 0 22px var(--yt);
-}
-main ul li:nth-child(2)::after {
-  background: var(--bg);
 }
 main ul li:nth-child(3)::before {
   box-shadow: 0 0 0 10px var(--tw), 0 0 0 20px var(--bg), 0 0 0 22px var(--tw);
 }
-main ul li:nth-child(3)::after {
-  background: var(--bg);
-}
 main ul li:nth-child(4)::before {
   box-shadow: 0 0 0 10px var(--ig), 0 0 0 20px var(--bg), 0 0 0 22px var(--ig);
 }
-main ul li:nth-child(4)::after {
-  background: var(--bg);
-}
 main ul li:nth-child(5)::before {
   box-shadow: 0 0 0 10px var(--ws), 0 0 0 20px var(--bg), 0 0 0 22px var(--ws);
-}
-main ul li:nth-child(5)::after {
-  background: var(--bg);
 }
 
 @media (max-width: 767px) {
